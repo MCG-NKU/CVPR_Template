@@ -113,6 +113,11 @@
 \ProcessOptions\relax
 
 
+% Breaking lines for URLs in the bib 
+\RequirePackage[hyphens]{url}
+\Urlmuskip=0mu plus 1mu\relax
+
+
 % ---------------------------------------------------------------
 %\input{everyshi.sty}
 \newcommand{\@EveryShipout@Hook}{}
