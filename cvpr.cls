@@ -113,6 +113,12 @@
 \ProcessOptions\relax
 
 
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{Tab.~\ref{#1}}
+\newcommand{\secref}[1]{Sec.~\ref{#1}}
+\newcommand{\AlgRef}[1]{Algorithm~\ref{#1}}
+\newcommand{\equref}[1]{Equ.~(\ref{#1})}
+
 % Breaking lines for URLs in the bib 
 \RequirePackage[hyphens]{url}
 \Urlmuskip=0mu plus 1mu\relax
