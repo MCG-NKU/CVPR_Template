@@ -6,7 +6,7 @@ This is a new Latex template for IEEE CVPR submission, rebuttal, and final versi
 * For cvpr rebuttal another verison of cvpr.cls is required.
 * Several warnings exists due to depreiciated options.
 
-This style file is intended to be used as a single style file that could help to fuild review, rebuttal and final files with a single style file, simply by using one of the following commands:
+This style file is intended to be used as a single style file that could help to build review, rebuttal and final files with a single style file, simply by using one of the following commands:
 
 ```Tex
 \documentclass[review]{cvpr}
