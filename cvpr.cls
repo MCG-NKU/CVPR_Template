@@ -570,7 +570,8 @@
       \AtTextUpperLeft{%
         \put(\LenToUnit{-35pt},\LenToUnit{-\cvprruleroffset}){%left ruler
           \cvprruler{\cvprrulercount}}
-        \put(\LenToUnit{\textwidth\kern 30pt},\LenToUnit{-\cvprruleroffset}){%right ruler
+        %\put(\LenToUnit{\textwidth\kern 30pt},\LenToUnit{-\cvprruleroffset})
+        \put(\LenToUnit{\dimexpr \textwidth+30pt},\LenToUnit{-\cvprruleroffset}){%right ruler
           \cvprruler{\cvprrulercount}}
       }
     \def\pid{\parbox{1in}{\begin{center}\bf\sf{\small CVPR}\\\#\cvprPaperID\end{center}}}
