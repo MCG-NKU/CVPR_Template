@@ -97,11 +97,12 @@
 \ProvidesPackage{cvpr} [2020/5/16 Example LaTex class for IEEE CVPR]
 \LoadClass[10pt,twocolumn,letterpaper]{article}
 
+\RequirePackage{cite}
 \RequirePackage{xspace}
 \RequirePackage{silence}
 \hbadness=10000 \vbadness=10000 \vfuzz=30pt \hfuzz=30pt
 \WarningFilter{latexfont}{Font shape declaration}
-\WarningFilter{latex}{Font shape declaration}
+\WarningFilter{latex}{Font shape}
 \WarningFilter{hyperref}{Token not allowed in a PDF string}
 \RequirePackage{etoolbox}
 
