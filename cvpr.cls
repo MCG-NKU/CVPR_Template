@@ -122,7 +122,6 @@
 \newcommand{\secref}[1]{Sec.~\ref{#1}}
 \newcommand{\AlgRef}[1]{Algorithm~\ref{#1}}
 \newcommand{\equref}[1]{Equ.~(\ref{#1})}
-\newcommand{\eqref}[1]{Equ.~(\ref{#1})}
 
 % Breaking lines for URLs in the bib 
 \RequirePackage[hyphens]{url}
@@ -576,7 +575,7 @@
         \put(\LenToUnit{\dimexpr \textwidth+30pt},\LenToUnit{-\cvprruleroffset}){%right ruler
           \cvprruler{\cvprrulercount}}
       }
-    \def\pid{\parbox{1in}{\begin{center}\bf\sf{\small CVPR}\\\#\cvprPaperID\end{center}}}
+    \def\pid{\parbox{1in}{\begin{center}\bf\sf{\small \confName}\\\#\cvprPaperID\end{center}}}
       \AtTextUpperLeft{%paperID in corners
         \put(\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
         \put(\LenToUnit{\textwidth\kern-8pt},\LenToUnit{45pt}){\pid}
