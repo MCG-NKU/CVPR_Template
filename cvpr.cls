@@ -464,7 +464,7 @@
           \@author  
         }{
           \iftoggle{cvprrebuttal}{}{
-            Anonymous \confYear~submission\\
+            Anonymous \confName~\confYear~submission\\
             \vspace*{1pt}\\
             Paper ID \cvprPaperID 
           }
@@ -582,7 +582,7 @@
       }
       \AtTextUpperLeft{%confidential
         \put(0,\LenToUnit{1cm}){\parbox{\textwidth}{\centering\cvprtenhv
-           \confYear~Submission \#\cvprPaperID. CONFIDENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+        \confName~\confYear~Submission \#\cvprPaperID. CONFIDENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
       }
   }
 }
