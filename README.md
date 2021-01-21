@@ -22,6 +22,6 @@ This style file is intended to be used as a single style file that could help to
 For an online preview, please refer to the overleaf project: https://www.overleaf.com/read/zygbpnbccrmr If you find any bug or have any further suggestions, please contact Ming-Ming Cheng by email cmm_spam@nankai.edu.cn or leave an issue on https://github.com/MCG-NKU/CVPR_Template
 
 # Acknowledge
-This template is modified from the the old cvpr template files contributed by Paolo.Ienne@di.epfl.ch and awf@acm.org.
+This template is modified by Ming-Ming Cheng from Nankai University. This version is modified from the the old cvpr template files contributed by Paolo.Ienne@di.epfl.ch and awf@acm.org. 
 
 
