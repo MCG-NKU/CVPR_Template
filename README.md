@@ -1,4 +1,4 @@
-# CVPR Template
+# CVPR/ICCV Template
 
 This is a new Latex template for IEEE CVPR/ICCV submission, rebuttal, and final version. The last version of CVPR/ICCV latex template has been developed by Paolo.Ienne@di.epfl.ch and awf@acm.org about 15 years ago. The previous version suffer from several issues:
 
