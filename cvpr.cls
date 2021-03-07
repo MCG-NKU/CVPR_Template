@@ -464,7 +464,7 @@
           \@author  
         }{
           \iftoggle{cvprrebuttal}{}{
-            Anonymous \confName~\confYear~submission\\
+            Anonymous \confName~submission\\
             \vspace*{1pt}\\
             Paper ID \cvprPaperID 
           }
