@@ -97,6 +97,7 @@
 \ProvidesPackage{cvpr} [2020/5/16 Example LaTex class for IEEE CVPR]
 \LoadClass[10pt,twocolumn,letterpaper]{article}
 
+\RequirePackage{subfig}
 \RequirePackage{cite}
 \RequirePackage{xspace}
 \RequirePackage{silence}
