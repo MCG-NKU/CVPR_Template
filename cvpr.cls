@@ -485,6 +485,7 @@
    \centerline{\large\bf Abstract}%
    \vspace*{12pt}%
    \it%
+   \iftoggle{cvprfinal}{\thispagestyle{empty}\pagestyle{empty}}{}
    }
 
 \def\endabstract
@@ -565,6 +566,8 @@
 \def\cvprruler#1{\makevruler[12pt][#1][1][3][0.993\textheight]\usebox{\cvprrulerbox}}
 \AddToShipoutPicture{%
   \iftoggle{cvprfinal}{
+    \thispagestyle{empty}
+    \pagestyle{empty}
   }{
     \cvprruleroffset=\textheight
     \advance\cvprruleroffset by -3.7pt
